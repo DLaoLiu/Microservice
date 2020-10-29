@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Product.API</name>
+    </assembly>
+    <members>
+        <member name="M:Product.API.Common.consul.ConsulHelper.RegisterConsul(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Hosting.IHostApplicationLifetime)">
+            <summary>
+            服务注册到consul
+            </summary>
+            <param name="app"></param>
+            <param name="lifetime"></param>
+        </member>
+        <member name="M:Product.API.Controllers.HealthCheckController.Get">
+            <summary>
+            健康检查接口
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

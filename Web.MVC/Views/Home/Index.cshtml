@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "我在测试小老弟";
+}
+
+<header>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <link href="~/css/site.css" rel="stylesheet" />
+</header>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>
+            @ViewBag.OrderData
+        </p>
+        <p>
+            @ViewBag.ProductData
+        </p>
+    </div>
+</body>
