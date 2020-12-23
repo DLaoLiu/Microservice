@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Gateway", "Microservice.Gateway\Microservice.Gateway.csproj", "{A4B3EFB1-4712-44D4-8D9E-1FE996A54290}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E90FA5CD-A800-497C-92BB-7FED93489310}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWays", "GateWays", "{D5240596-6615-4341-991E-6B98FF1BFC81}"
@@ -33,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDS4.AuthCenter", "IDS4.Aut
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C8004C31-A085-42E4-B3D2-02DFE2CA7D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIdentityServer4", "TestIdentityServer4\TestIdentityServer4.csproj", "{63C010CF-1CDF-418B-9263-C266AD236A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestIdentityServer4", "TestIdentityServer4\TestIdentityServer4.csproj", "{63C010CF-1CDF-418B-9263-C266AD236A1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +39,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A4B3EFB1-4712-44D4-8D9E-1FE996A54290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4B3EFB1-4712-44D4-8D9E-1FE996A54290}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4B3EFB1-4712-44D4-8D9E-1FE996A54290}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4B3EFB1-4712-44D4-8D9E-1FE996A54290}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9D27E1F-2118-4E00-8B1C-F18900FD4FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9D27E1F-2118-4E00-8B1C-F18900FD4FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9D27E1F-2118-4E00-8B1C-F18900FD4FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -74,7 +68,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A4B3EFB1-4712-44D4-8D9E-1FE996A54290} = {D5240596-6615-4341-991E-6B98FF1BFC81}
 		{D5240596-6615-4341-991E-6B98FF1BFC81} = {E90FA5CD-A800-497C-92BB-7FED93489310}
 		{1B538D8B-AD45-49BD-8C75-5C8964D103FC} = {E90FA5CD-A800-497C-92BB-7FED93489310}
 		{61862048-7141-4201-AF22-315E740D7A5E} = {E90FA5CD-A800-497C-92BB-7FED93489310}
